@@ -46,7 +46,11 @@ function ChatPage({ specialty }) {
 
         try {
             // Determine the backend URL based on the current route
+<<<<<<< HEAD
             const backendUrl = `https://medimate-backend-production-f1e4.up.railway.app${location.pathname}`;
+=======
+            const backendUrl = `https://medimate-backend-production-f1e4.up.railway.app/${location.pathname}`;
+>>>>>>> cd6b357147088331e84068d5709c8774a1d66e9c
 
             // Send the prompt to the backend
             const response = await fetch(backendUrl, {
